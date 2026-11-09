@@ -125,11 +125,13 @@ src="https://www.facebook.com/tr?id=1662905424820545&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
-      <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-WHBK4S6W"></script>
+     <!-- Event snippet for Purchase conversion page -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18445045043/JCCTCO_WgbUdELOapNtE',
+      'transaction_id': ''
+      // 'new_customer': true /* calculate dynamically, populate with true/false */,
+  });
 </script>
 </head>
 <body>
